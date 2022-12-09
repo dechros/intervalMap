@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe etkin dosyayı derle",
+            "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}\\**",
+                "-o",
+                "${fileDirname}\\..\\output\\${fileBasenameNoExtension}.exe",
+                "-I",
+                "${fileDirname}\\..\\include\\"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Hata Ayıklayıcısı tarafından oluşturulan görev."
+        }
+    ],
+    "version": "2.0.0"
+}
