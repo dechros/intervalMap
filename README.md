@@ -1,2 +1,2 @@
-# thinkCellInterview
-This project is an example of Thinkcell Interview.
+# intervalMap
+This project is an interval map type library for C++ language.
